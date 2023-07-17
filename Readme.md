@@ -6,3 +6,7 @@ Add New Files for handling the input data via share memory variable, author:[Dae
 
 	-PoissonReconLib.cpp
 	-PoissonReconLib.h
+
+Manual commands:
+`g++ -fopenmp -c -o testCompile.o src/PoissonReconLib.cpp`
+`ar rcs libTestCompile.a testCompile.o`
